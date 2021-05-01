@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             // crossAxisAlignment: CrossAxisAlignment.start, // End and start will align the children at the end and start of the children having highest width.
             // crossAxisAlignment: CrossAxisAlignment.stretch // Stretch will align the children as much as possible so there is no use of specifying width property for any children.
             // Note -> If crossAxisAlignment is set to end and the children have width equals infinity then its same as crossAxisAlignment set to stretch.
-
+            // You can set width property to infinity by making it equal to double.infinity
             children: <Widget>[
               // In Container Widget instead of using child we use children as it can have more than one child.
               Container(
