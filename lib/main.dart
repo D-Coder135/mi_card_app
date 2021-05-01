@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            mainAxisSize: MainAxisSize
-                .min, // Here it means that the column will occupy min space possible.
+            // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
             children: <Widget>[
               // In Container Widget instead of using child we use children as it can have more than one child.
               Container(
