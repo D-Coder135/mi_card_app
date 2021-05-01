@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
             // margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 30.0),
 
             // For adding the margins for each and every side separately.
-            // margin: EdgeInsets.fromLTRB(40.0, 50.0, 60.0, 70.0),
+            margin: EdgeInsets.fromLTRB(40.0, 50.0, 60.0, 70.0),
 
             // For adding the margins only for one side of the container.
             // margin: EdgeInsets.only(right: 50.0),
