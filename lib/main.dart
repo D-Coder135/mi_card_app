@@ -46,6 +46,7 @@ class MyApp extends StatelessWidget {
                 // margin: EdgeInsets.only(right: 50.0),
                 child: Text("Container 1"),
               ),
+              // SizedBox is used to add spacing in between the children. For Column() we only provide height to the SizedBox().
               SizedBox(
                 height: 20,
               ),
