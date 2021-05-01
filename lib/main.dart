@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
 
                 // For adding the margins only for one side of the container.
                 // margin: EdgeInsets.only(right: 50.0),
-                child: Text("Hey There!"),
+                child: Text("Container 1"),
               ),
               Container(
                 height: 100,
