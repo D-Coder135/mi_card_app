@@ -35,6 +35,7 @@ class MyApp extends StatelessWidget {
                 height: 100,
                 width: 100,
                 color: Colors.blue,
+                child: Text('Container 2'),
               ),
               Container(
                 height: 100,
