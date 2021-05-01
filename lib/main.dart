@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
             color: Colors.red,
             height: 100,
             width: 100,
+            // margin: EdgeInsets.all(20), For adding the margin from all sides
             child: Text("Hey There!"),
           ),
         ),
