@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
             // For adding the margins for each and every side separately.
             // margin: EdgeInsets.fromLTRB(40.0, 50.0, 60.0, 70.0),
 
+            // For adding the margins only for one side of the container.
             // margin: EdgeInsets.only(right: 50.0),
             child: Text("Hey There!"),
           ),
