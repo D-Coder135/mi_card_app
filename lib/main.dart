@@ -14,7 +14,11 @@ class MyApp extends StatelessWidget {
           child: Column(
             // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
             // verticalDirection: VerticalDirection.up, // Changing the direction of the alignment of the children of the column. It can be set to up or down(i.e default)
-            mainAxisAlignment: MainAxisAlignment.center,
+            // mainAxisAlignment: MainAxisAlignment.start, // When we want to change the spacing between the children of the Column() Widget -->
+            // mainAxisAlignment: MainAxisAlignment.end,   // then we can change the mainAxisAlignment property and set it to start (i.e. default),
+            // mainAxisAlignment: MainAxisAlignment.center, // end,center, spaceEvenly(to evenly divide the spacing as per the column size) and
+            // mainAxisAlignment: MainAxisAlignment.spaceEvenly, // spaceBetween(to set container 2 in between) as shown just beside all these comments.
+            // mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               // In Container Widget instead of using child we use children as it can have more than one child.
               Container(
