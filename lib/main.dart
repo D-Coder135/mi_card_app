@@ -13,8 +13,7 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
-            verticalDirection: VerticalDirection
-                .up, // Changing the direction of the alignment of the children of the column. It can be set to up or down(i.e default)
+            // verticalDirection: VerticalDirection.up, // Changing the direction of the alignment of the children of the column. It can be set to up or down(i.e default)
             children: <Widget>[
               // In Container Widget instead of using child we use children as it can have more than one child.
               Container(
