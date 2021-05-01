@@ -81,7 +81,7 @@ class MyApp extends StatelessWidget {
             // mainAxisAlignment: MainAxisAlignment.spaceEvenly, // spaceBetween(to set container 2 in between) as shown just beside all these comments.
             // mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
-            // crossAxisAlignment: CrossAxisAlignment.end, // The crossAxisAlignment is used whenever you want to align the children in opposite of the its parent direction. Like here the Column() widget is the parent i.e vertical so the alignment will be done in horizontal direction
+            // crossAxisAlignment: CrossAxisAlignment.end, // The crossAxisAlignment is used whenever you want to align the children in opposite of the its parent direction. Like here the Row() widget is the parent i.e horizontal so the alignment will be done in vertical direction
             // crossAxisAlignment: CrossAxisAlignment.start, // End and start will align the children at the end and start of the children having highest width.
             // crossAxisAlignment: CrossAxisAlignment.stretch // Stretch will align the children as much as possible so there is no use of specifying width property for any children.
             // Note -> If crossAxisAlignment is set to end and the children have width equals infinity then its same as crossAxisAlignment set to stretch.
