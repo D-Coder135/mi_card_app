@@ -13,15 +13,20 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
+
             // verticalDirection: VerticalDirection.up, // Changing the direction of the alignment of the children of the column. It can be set to up or down(i.e default)
+
             // mainAxisAlignment: MainAxisAlignment.start, // When we want to change the spacing between the children of the Column() Widget -->
             // mainAxisAlignment: MainAxisAlignment.end,   // then we can change the mainAxisAlignment property and set it to start (i.e. default),
             // mainAxisAlignment: MainAxisAlignment.center, // end,center, spaceEvenly(to evenly divide the spacing as per the column size) and
             // mainAxisAlignment: MainAxisAlignment.spaceEvenly, // spaceBetween(to set container 2 in between) as shown just beside all these comments.
             // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
             // crossAxisAlignment: CrossAxisAlignment.end, // The crossAxisAlignment is used whenever you want to align the children in opposite of the its parent direction. Like here the Column() widget is the parent i.e vertical so the alignment will be done in horizontal direction
             // crossAxisAlignment: CrossAxisAlignment.start, // End and start will align the children at the end and start of the children having highest width.
             // crossAxisAlignment: CrossAxisAlignment.stretch // Stretch will align the children as much as possible so there is no use of specifying width property for any children.
+            // Note -> If crossAxisAlignment is set to end and the children have width equals infinity then its same as crossAxisAlignment set to stretch.
+
             children: <Widget>[
               // In Container Widget instead of using child we use children as it can have more than one child.
               Container(
