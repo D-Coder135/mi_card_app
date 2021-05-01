@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
             // mainAxisAlignment: MainAxisAlignment.center, // end,center, spaceEvenly(to evenly divide the spacing as per the column size) and
             // mainAxisAlignment: MainAxisAlignment.spaceEvenly, // spaceBetween(to set container 2 in between) as shown just beside all these comments.
             // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.end,
             children: <Widget>[
               // In Container Widget instead of using child we use children as it can have more than one child.
               Container(
