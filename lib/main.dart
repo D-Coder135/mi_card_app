@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               // In Container Widget instead of using child we use children as it can have more than one child.
               Container(
