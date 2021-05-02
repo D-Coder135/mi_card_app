@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              CircleAvatar(),
+              CircleAvatar(
+                radius: 50.0,
+              ),
             ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
             //
