@@ -37,7 +37,11 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 child: Row(
-                  children: <Widget>[],
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                    ),
+                  ],
                 ),
               ),
             ],
