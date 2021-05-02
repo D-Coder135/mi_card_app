@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
               Container(
+                color: Colors.white,
                 child: Row(
                   children: <Widget>[
                     Icon(
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
                       width: 10.0,
                     ),
                     Text(
-                      '+91 8542875214',
+                      '+91 854 287 5214',
                       style: TextStyle(
                         fontSize: 20.0,
                         fontFamily: 'Source',
