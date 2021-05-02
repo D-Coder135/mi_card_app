@@ -36,7 +36,9 @@ class MyApp extends StatelessWidget {
                     letterSpacing: 2.5,
                     fontWeight: FontWeight.bold),
               ),
-              SizedBox(),
+              SizedBox(
+                height: 10.0,
+              ),
               // Container(
               //   color: Colors.white,
               //   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
