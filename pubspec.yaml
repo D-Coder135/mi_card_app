@@ -26,6 +26,6 @@ flutter:
         - asset: fonts/Pacifico-Regular.ttf
     - family: Source
       fonts:
-        - asset: fonts/SourceSansPro-LightItalic.ttf
+        - asset: fonts/SourceSansPro-Italic.ttf
 
 
