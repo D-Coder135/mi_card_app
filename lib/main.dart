@@ -69,6 +69,14 @@ class MyApp extends StatelessWidget {
                     Icons.email,
                     color: Colors.teal,
                   ),
+                  title: Text(
+                    'devansh1352000@gmail.com',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontFamily: 'Source',
+                      color: Colors.teal[900],
+                    ),
+                  ),
                 ),
                 // child: Row(
                 //   children: <Widget>[
