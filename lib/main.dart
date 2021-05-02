@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +20,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Devansh Kumar Shukla',
                 style: TextStyle(
-                  fontSize: 40,
+                  fontSize: 30,
                 ),
               ),
             ],
