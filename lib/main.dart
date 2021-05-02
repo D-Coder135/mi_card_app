@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
               CircleAvatar(
                 radius: 50.0,
                 backgroundColor: Colors.white70,
+                backgroundImage: AssetImage('images/mypic.png'),
               ),
             ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
