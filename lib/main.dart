@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: AssetImage('images/mypic.png'),
               ),
+              Text('Devansh Kumar Shukla'),
             ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
             //
