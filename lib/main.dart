@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            children: <Widget>[CircleAvatar()],
+            children: <Widget>[
+              CircleAvatar(),
+            ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
             //
             // // verticalDirection: VerticalDirection.up, // Changing the direction of the alignment of the children of the column. It can be set to up or down(i.e default)
