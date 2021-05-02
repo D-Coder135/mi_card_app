@@ -60,6 +60,8 @@ class MyApp extends StatelessWidget {
               //   ),
               // ),
 
+              // Alternative and more Appropriate Way is as follows -->
+
               // Container(
               //   color: Colors.white,
               //   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
