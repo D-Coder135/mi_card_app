@@ -40,6 +40,7 @@ class MyApp extends StatelessWidget {
                   children: <Widget>[
                     Icon(
                       Icons.phone,
+                      color: Colors.white,
                     ),
                   ],
                 ),
