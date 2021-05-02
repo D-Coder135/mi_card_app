@@ -42,6 +42,9 @@ class MyApp extends StatelessWidget {
                       Icons.phone,
                       color: Colors.white,
                     ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
                     Text(
                       '+91 8542875214',
                       style: TextStyle(
