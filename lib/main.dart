@@ -59,7 +59,9 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(),
+              Container(
+                child: Row(),
+              ),
             ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
             //
