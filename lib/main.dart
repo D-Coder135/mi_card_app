@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +19,10 @@ class MyApp extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: AssetImage('images/mypic.png'),
               ),
-              Text('Devansh Kumar Shukla'),
+              Text(
+                'Devansh Kumar Shukla',
+                style: TextStyle(),
+              ),
             ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
             //
