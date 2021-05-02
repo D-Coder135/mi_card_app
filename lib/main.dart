@@ -61,10 +61,9 @@ class MyApp extends StatelessWidget {
               // ),
 
               // Alternative and more Appropriate Way is as follows -->
-              Container(
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                padding: EdgeInsets.all(10.0),
                 child: Row(
                   children: <Widget>[
                     Icon(
