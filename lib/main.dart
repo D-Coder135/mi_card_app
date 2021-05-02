@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 // Alternative and more Appropriate method is as follows -->
-
+                child: ListTile(),
                 // child: Row(
                 //   children: <Widget>[
                 //     Icon(
