@@ -64,6 +64,7 @@ class MyApp extends StatelessWidget {
                   children: <Widget>[
                     Icon(
                       Icons.email,
+                      color: Colors.teal,
                     ),
                   ],
                 ),
