@@ -68,6 +68,7 @@ class MyApp extends StatelessWidget {
                     ),
                     Text(
                       'devansh1352000@gmail.com',
+                      style: TextStyle(),
                     ),
                   ],
                 ),
