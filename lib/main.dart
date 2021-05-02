@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'FLUTTER DEVELOPER',
+                style: TextStyle(),
               ),
             ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
