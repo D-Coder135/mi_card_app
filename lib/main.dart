@@ -63,25 +63,25 @@ class MyApp extends StatelessWidget {
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.email,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      'devansh1352000@gmail.com',
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        fontFamily: 'Source',
-                        color: Colors.teal[900],
-                      ),
-                    ),
-                  ],
-                ),
+                // child: Row(
+                //   children: <Widget>[
+                //     Icon(
+                //       Icons.email,
+                //       color: Colors.teal,
+                //     ),
+                //     SizedBox(
+                //       width: 10.0,
+                //     ),
+                //     Text(
+                //       'devansh1352000@gmail.com',
+                //       style: TextStyle(
+                //         fontSize: 20.0,
+                //         fontFamily: 'Source',
+                //         color: Colors.teal[900],
+                //       ),
+                //     ),
+                //   ],
+                // ),
               )
               // Container(
               //   color: Colors.white,
