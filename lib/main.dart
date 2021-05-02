@@ -46,6 +46,7 @@ class MyApp extends StatelessWidget {
                       '+91 8542875214',
                       style: TextStyle(
                         fontSize: 20.0,
+                        fontFamily: 'Source',
                       ),
                     ),
                   ],
