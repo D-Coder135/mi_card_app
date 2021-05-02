@@ -59,6 +59,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
+              // Alternative and More Appropriate Method is as follows -->
 
               // Container(
               //   color: Colors.white,
