@@ -21,14 +21,16 @@ class MyApp extends StatelessWidget {
                 'Devansh Kumar Shukla',
                 style: TextStyle(
                   fontFamily: 'Pacifico',
-                  fontSize: 30,
+                  fontSize: 30.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
               Text(
                 'FLUTTER DEVELOPER',
-                style: TextStyle(),
+                style: TextStyle(
+                  fontSize: 20.0,
+                ),
               ),
             ],
             // // mainAxisSize: MainAxisSize.min, // Here it means that the column will occupy min space possible.
