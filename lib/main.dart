@@ -61,7 +61,30 @@ class MyApp extends StatelessWidget {
               // ),
 
               // Alternative and more Appropriate Way is as follows -->
-
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                padding: EdgeInsets.all(10.0),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '+91 854 287 5214',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        fontFamily: 'Source',
+                        color: Colors.teal[900],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
               // Container(
               //   color: Colors.white,
               //   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
